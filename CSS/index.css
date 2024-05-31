@@ -3,20 +3,27 @@ html body {
 }
 .header {
     width: 100%;
-    background: #553535;
+    background: #0cd3ff;
 }
-
+img.logo {
+    padding-right: 10rem;
+}
 .headerContent {
     margin: 0 auto;
+
     padding: 10px;
 }
 .span {
     width: 100%;
 }
+.navContainer {
+    display: flex;
+}
 .container {
     display: inline-flex;
     text-decoration: none;
     justify-content: space-between;
+    width: 100%;
 }
 
 #navigation a {
