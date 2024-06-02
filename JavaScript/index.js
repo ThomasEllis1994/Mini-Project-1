@@ -84,9 +84,9 @@ let recipes = [
 
 function addRecipe(
     title = "lorem",
+    imageURL = null,
     ingredients = null,
-    instructions = null,
-    imageURL = "..."
+    instructions = null
 ) {
     // clone the template
 
@@ -103,10 +103,13 @@ function addRecipe(
     // include the populated template into the page
     document.querySelector("#recipe-list").appendChild(template);
 }
+
+recipes.forEach((recipe) => {
+    for (i = 0; i < recipe.ingredients.length; i++) {
+        console.log(recipe.ingredients[i]);
+    }
+});
 console.log("hello");
 recipes.forEach((recipe) => addRecipe(recipe.title, recipe.imageURL));
 
-addRecipe(
-    "steak fried rice",
-    "https://tiffycooks.com/wp-content/uploads/2023/11/380E74AE-4AD5-4934-95EC-E7873B78F603-1152x1536.jpg"
-);
+addRecipe("steak fried rice", "");

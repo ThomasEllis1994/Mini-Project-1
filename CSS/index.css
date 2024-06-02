@@ -5,9 +5,16 @@ html body {
     width: 100%;
     background: #0cd3ff;
 }
-img.logo {
-    padding-right: 10rem;
+.logo {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
 }
+.links a {
+    padding-top: 20px;
+    background-color: blueviolet;
+}
+
 .headerContent {
     margin: 0 auto;
 
@@ -18,15 +25,21 @@ img.logo {
 }
 .navContainer {
     display: flex;
+    width: 100%;
+    justify-content: space-around;
 }
 .container {
     display: inline-flex;
     text-decoration: none;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
 }
 
 #navigation a {
     text-decoration: none;
     color: black;
+}
+img.card-img-top {
+    height: 350px;
+    width: 260px;
 }

@@ -16,23 +16,32 @@
     </head>
     <body>
         <div class="header navContainer">
-            <nav class="container">
-                <img src="" alt="Logo" class="logo" />
-                <div id="navigation" class="container">
-                    <a href="index.html">Home</a>
-                    <a href="recipes.html">Recipes</a>
-                    <a href="spices.html">Spices</a>
-                    <a href="dinnerHelper.html">Dinner Helper</a>
-                </div>
-            </nav>
-            <section id="headerRight">
+            <div>
+                <img
+                    src="../Pictures/newLogo.png"
+                    height="150px"
+                    width="150px"
+                    alt="Logo"
+                    class="logo"
+                />
+            </div>
+
+            <div id="navigation" class="container links">
+                <a href="index.html">Home</a>
+                <a href="recipes.html">Recipes</a>
+                <!-- <a href="spices.html">Spices</a> -->
+                <a href="dinnerHelper.html">Dinner Helper</a>
+                <a href="submitRecipe.html">Submit a Recipe</a>
+            </div>
+
+            <div id="headerRight">
                 <div><a href="signIn.html">Sign In</a></div>
                 <div>
                     <a href="newsletterSignUp.html"
                         >Sign up for our newsletter</a
                     >
                 </div>
-            </section>
+            </div>
         </div>
 
         <aside>
@@ -69,10 +78,18 @@
 
             <template id="recipe-template">
                 <article
-                    class="card col-lg-3 col-md-6 col-sm-12"
+                    class="card text-center col-lg-3 col-md-6 col-sm-12"
                     style="width: 18rem"
                 >
-                    <img src="..." class="card-img-top" alt="..." />
+                    <img
+                        src="..."
+                        class="card-img-top"
+                        style="
+                            padding-top: 10px;
+                            border-radius: 10px 10px 10px 10px;
+                        "
+                        alt="..."
+                    />
                     <section class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Recipe info</p>
