@@ -75,12 +75,36 @@ let recipes = [
             "Place them in the oven for about 10 minutes or until golden brown. Put your pizza sauce or any other dips into a serving bowl and enjoy.",
         ],
     },
+    {
+        title: "Pepperoni Stuffed Chicken",
+        imageURL: "../Pictures/RecipePictures/PepperoniStuffedChicken.jpg",
+        src: "../HTML/Recipes/DinoNuggies.html",
+        id: 5,
+        ingredients: [
+            "4 chicken breasts",
+            "Pepperoni",
+            "Onions",
+            "Jalapenos",
+            "Sliced cheese",
+            "Sun dried tomato sauce",
+            "Pasta of Choice",
+        ],
+        instructions: [
+            "First, place your chicken breast in between two chopsticks. Make slices towards your cutting board slicing the chicken every inch. Place 2-3 pepperoni in each slice. You’ll want to place them on top and push in the middle, so it creates a sort of valley. ",
+
+            "Next, thinly slice your onions, jalapenos, and cheese. Fill each pepperoni valley with these ingredients. Also coat the bottom of an oven dish with some of these ingredients. ",
+
+            "Next, pour in some of your sauce into the bottom of your cooking dish and spread. You don’t need much there, just enough to have some flavor down there. Place the chicken over top and liberally pour the sauce over the chicken. You want to cover it and use most of the jar. ",
+
+            "Finally place in the oven at 375 F for 25 minutes and check your chicken temperature. It may need more time, so leave it in until the internal temperature in a fatter part of the chicken is at 165. Remove the chicken from the juice and pour the remaining juice over pasta. Serve and enjoy.",
+        ],
+    },
 ];
 
 //Function to randomly select a dinner for a user, and post it to the dinner helper page.
 function postDinner() {
     function getDinner() {
-        let randomNumber = Math.floor(Math.random() * 4) + 1;
+        let randomNumber = Math.floor(Math.random() * 5) + 1;
         return randomNumber;
     }
     let number = getDinner();
