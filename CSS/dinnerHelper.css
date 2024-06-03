@@ -1,13 +1,48 @@
-.dinnerHelper {
-    display: flex;
-    width: 100%;
-    height: 100vh;
-    background-color: aqua;
-    align-items: center;
-    justify-content: center;
-}
 /* --buff: #D69B5Fff;
 --light-blue: #AEC7CEff;
 --slate-gray: #6B7F87ff;
 --paynes-gray: #3F6476ff;
 --reseda-green: #606D51ff; */
+
+body {
+    background-color: blueviolet;
+}
+.container {
+    width: 100%;
+    height: 100%;
+}
+/* set grid items to their proper place */
+#dinnerQ {
+    grid-area: header;
+    height: auto;
+}
+#dinnerM {
+    grid-area: main;
+}
+#helpButton {
+    grid-area: footer;
+    width: auto;
+}
+#resMes {
+    grid-area: resMes;
+}
+#dinnerSrc {
+    grid-area: dinner;
+}
+.grid-item {
+    justify-self: center;
+}
+/* create grid for grid items */
+.grid-container {
+    justify-content: center;
+    display: grid;
+    grid-template:
+        "header header header"
+        "menu main right"
+        "menu footer blank"
+        "resMes resMes resMes"
+        "dinner dinner dinner";
+    grid-gap: 10px;
+
+    padding: 10px;
+}

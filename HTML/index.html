@@ -18,7 +18,7 @@
         <div class="header navContainer">
             <div>
                 <img
-                    src="../Pictures/newLogo.png"
+                    src="../Pictures/logo.png"
                     height="150px"
                     width="150px"
                     alt="Logo"
@@ -27,48 +27,56 @@
             </div>
 
             <div id="navigation" class="container links">
-                <a href="index.html">Home</a>
-                <a href="recipes.html">Recipes</a>
+                <a class="nav" href="index.html">Home</a>
+                <a class="nav" href="recipes.html">Recipes</a>
                 <!-- <a href="spices.html">Spices</a> -->
-                <a href="dinnerHelper.html">Dinner Helper</a>
-                <a href="submitRecipe.html">Submit a Recipe</a>
+                <a class="nav" href="dinnerHelper.html">Dinner Helper</a>
+                <a class="nav" href="submitRecipe.html">Submit a Recipe</a>
             </div>
 
-            <div id="headerRight">
-                <div><a href="signIn.html">Sign In</a></div>
-                <div>
-                    <a href="newsletterSignUp.html"
+            <div>
+                <div class="headerRight">
+                    <a class="nav community" href="">Sign In</a>
+                </div>
+                <div class="headerRight">
+                    <a class="nav community" href=""
                         >Sign up for our newsletter</a
                     >
                 </div>
             </div>
         </div>
+        <article class="grid-container2">
+            <aside id="recipeofWeek">
+                <figure class="container2">
+                    <img
+                        class="RoW"
+                        src="../Pictures/RecipePictures/steakFriedRice.jpg"
+                        alt="Recipe of the week photo"
+                    />
+                    <figcaption id="rowCap">
+                        The Recipe of the week: <br />
+                        <em id="recipeOfTheWeek">Steak Fried Rice</em>
+                    </figcaption>
+                </figure>
+            </aside>
+            <section id="theStory">
+                <h1>The Reason Behind the Roundtable</h1>
 
-        <aside>
-            <figure class="container2">
-                <img src="" alt="Recipe of the week photo" />
-                <figcaption>
-                    The Recipe of the week: <br />
-                    <em id="recipeOfTheWeek">Fried Rice</em>
-                </figcaption>
-            </figure>
-        </aside>
-        <section id="theStory">
-            <h1>The Reason Behind the Roundtable</h1>
-
-            <div>
-                Back in college, I had a friend named Brad. Brad is an increbile
-                chef, so the group would ask Brad to make us food at any chance
-                we could get. He would let us help out as his kitchen crew and
-                it was always an amazing time with incredible food.
-            </div>
-            <br />
-            <div>
-                During the great lockdown of 2020, my group of friends took up
-                cooking as our pandemic hobby. We were spread across the
-                country,
-            </div>
-        </section>
+                <div>
+                    Back in college, I had a friend named Brad. Brad is an
+                    increbile chef, so the group would ask Brad to make us food
+                    at any chance we could get. He would let us help out as his
+                    kitchen crew and it was always an amazing time with
+                    incredible food.
+                </div>
+                <br />
+                <div>
+                    During the great lockdown of 2020, my group of friends took
+                    up cooking as our pandemic hobby. We were spread across the
+                    country,
+                </div>
+            </section>
+        </article>
         <!-- creating a sliding card effect of recipes in database -->
         <section class="sliders">
             <!-- eventually this will pull from a 
@@ -92,7 +100,7 @@
                     />
                     <section class="card-body">
                         <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Recipe info</p>
+                        <a href="..." class="card-text">Recipe info</a>
                     </section>
                 </article>
             </template>
