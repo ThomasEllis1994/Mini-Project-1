@@ -78,7 +78,7 @@ let recipes = [
     {
         title: "Pepperoni Stuffed Chicken",
         imageURL: "../Pictures/RecipePictures/PepperoniStuffedChicken.jpg",
-        src: "../HTML/Recipes/DinoNuggies.html",
+        src: "../HTML/Recipes/PepperoniStuffedChicken.html",
         id: 5,
         ingredients: [
             "4 chicken breasts",
