@@ -19,16 +19,30 @@ body {
 #dinnerM {
     grid-area: main;
 }
-#helpButton {
+.dinners {
     grid-area: footer;
     width: auto;
+    margin-top: 20px;
+    background-color: 57CC99;
+    padding: 5px;
+    border-radius: 10px;
+    transition: background-color 0.5s;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+    text-align: center;
 }
+.dinners:hover {
+    background-color: 38A3A5;
+}
+
 #resMes {
     grid-area: resMes;
 }
 #dinnerSrc {
     grid-area: dinner;
 }
+
 .grid-item {
     justify-self: center;
 }

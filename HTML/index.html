@@ -46,44 +46,74 @@
             </div>
         </div>
         <article class="grid-container2">
-            <aside id="recipeofWeek">
-                <figure class="container2">
-                    <img
-                        class="RoW"
-                        src="../Pictures/RecipePictures/steakFriedRice.jpg"
-                        alt="Recipe of the week photo"
-                    />
-                    <figcaption id="rowCap">
-                        The Recipe of the week: <br />
-                        <em id="recipeOfTheWeek">Steak Fried Rice</em>
-                    </figcaption>
-                </figure>
-            </aside>
-            <section id="theStory">
-                <h1>The Reason Behind the Roundtable</h1>
+            <article
+                class="card text-center col-lg-3 col-md-6 col-sm-12"
+                style="width: 18rem"
+            >
+                <img
+                    src="../Pictures/RecipePictures/steakFriedRice.jpg"
+                    class="card-img-top"
+                    style="
+                        padding-top: 10px;
+                        border-radius: 10px 10px 10px 10px;
+                        margin: auto;
+                    "
+                    alt="Steak Fried Rice"
+                />
+                <section class="card-body">
+                    <h5 class="card-title">Steak Fried Rice</h5>
+                    <a
+                        href="../HTML/Recipes/steakFriedRice.html"
+                        class="card-text"
+                        >Recipe info</a
+                    >
+                </section>
+            </article>
+            <section style="text-align: center" id="theStory">
+                <h1 style="background-color: 57CC99">
+                    The Reason Behind the Roundtable
+                </h1>
 
-                <div>
+                <div class="story">
                     Back in college, I had a friend named Brad. Brad is an
                     increbile chef, so the group would ask Brad to make us food
                     at any chance we could get. He would let us help out as his
                     kitchen crew and it was always an amazing time with
-                    incredible food.
+                    incredible food. Before I met brad and for a time after, I
+                    was a chicken tender and mac and cheese guy. Thats pretty
+                    much all I cooked besides some basic spiced chicken breasts
+                    with canned veggies. But those lessons were the start of me
+                    exploring more foods.
                 </div>
                 <br />
-                <div>
-                    During the great lockdown of 2020, my group of friends took
-                    up cooking as our pandemic hobby. We were spread across the
-                    country,
+                <div class="story">
+                    During the great lockdown of 2020, my friends and I were
+                    spread across the country and stuck inside. Brad and I
+                    started the great endevour to stay sane by just hanging out
+                    on facetime while cooking. Soon our best friend Shilohe
+                    heard of it and wanted to join. It was his idea to begin
+                    actually cooking the same thing and to turn our evening
+                    hangouts into cooking classes to teach one another different
+                    recipes. Soon enough our whole sohpomore year crew was in on
+                    it and we had 12 people cycling through teaching recipes.
+                    Not everyone cooked, but the classes were a way of bringing
+                    us together from across the country.
+                </div>
+                <br />
+                <div class="story">
+                    I wanted a place to share all the recipes I learned during
+                    that time.This website is an homage to those classes and to
+                    my friends.
                 </div>
             </section>
         </article>
         <!-- creating a sliding card effect of recipes in database -->
-        <section class="sliders">
+        <section class="sliders" style="text-align: center">
             <!-- eventually this will pull from a 
                 database of recipes that the form 
                 for submit a recipe will also post to.
                 Will hard code for now-->
-
+            <h2 style="background-color: 57CC99">Recent Recipes</h2>
             <template id="recipe-template">
                 <article
                     class="card text-center col-lg-3 col-md-6 col-sm-12"

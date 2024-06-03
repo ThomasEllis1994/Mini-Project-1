@@ -77,7 +77,7 @@ let recipes = [
     },
     {
         title: "Pepperoni Stuffed Chicken",
-        imageURL: "../Pictures/RecipePictures/miniPizzaRolls.JPG",
+        imageURL: "../Pictures/RecipePictures/PepperoniStuffedChicken.jpg",
         src: "../HTML/Recipes/DinoNuggies.html",
         ingredients: [],
         instructions: [],
