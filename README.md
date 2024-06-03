@@ -35,10 +35,24 @@ Requirements process: Checked other cooking site
 -   Recipe Cards that are easily readable
 -   Dinner Helper tool to help pick something to eat
 -   Comprehensive and easy to follow guide to exactly what people want to see
--
 -   sections for desserts, breads, breakfast, lunch, dinner, etc
 -   videos on how to cook the recipes
 -   database of recipes to pull from
 -   A search feature that can help users find something to eat
 -   A sign in for users to create a profile and save favorites
 -   newsletter that sends out new recipes and information
+
+Expansions in the future
+
+-   Filter by food item and type of meal
+-   Data base creation for recipes
+-   component creation for several multi used pieces
+-   filter by ingredients
+-   dinner builder from pantry
+-   user sign in
+-   ability to set favorites lists
+-   possibly create own page within the applicaiton and feature own recipes
+-   video tutorial for meal of the week
+-   Guest chef for Videos
+-   Ability to gain admin status to post recipes to site
+-   measurement converter for recipe pages
