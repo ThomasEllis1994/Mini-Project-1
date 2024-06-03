@@ -3,18 +3,26 @@ body {
 }
 
 /* Recipe Card Start */
+.backG {
+    transition: background-color 0.5s;
+}
+.backG:hover {
+    background-color: 57CC99;
+}
+
 .recipeCard {
     display: grid;
     grid-template:
         "picture picture title title"
         "picture picture time amount"
         "picture picture ingredients ingredients"
-        "picture picture ingredients ingredients";
+        "picture picture ingredients ingredients"
+        "picture picture link link";
 
     grid-template-rows: auto auto auto auto;
     margin: 10px;
     width: 600px;
-    height: 400px;
+    height: 450px;
     background-color: 80ED99;
     border-radius: 10px;
 }
@@ -22,6 +30,7 @@ body {
     height: 350px;
     width: auto;
     padding: 10px;
+    border-radius: 10px 10px 10px 10px;
 }
 figcaption {
     padding-left: 10px;
@@ -39,6 +48,7 @@ figcaption {
     grid-area: title;
     background-color: 57CC99;
     border-radius: 0 10px 0 0;
+    text-align: center;
 }
 .cardDiv {
     width: 100%;
@@ -49,6 +59,7 @@ figcaption {
 }
 .timeDiv {
     background-color: 57CC99;
+    text-align: center;
 }
 .timeT {
     grid-area: time;
@@ -63,10 +74,28 @@ figcaption {
     background-color: A4F3B3;
     height: 100%;
     width: 100%;
-    border-radius: 0 0 10px 0;
 }
 .ingAmounts {
     list-style-type: none;
+}
+.bottom {
+    text-align: right;
+    grid-area: link;
+    background-color: A4F3B3;
+    border-radius: 0 0 10px 0;
+}
+.link {
+    grid-area: link;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    background-color: 57CC99;
+    margin: 10px;
+    border-radius: 10px;
+    transition: background-color 0.5s;
+}
+.link:hover {
+    background-color: 38A3A5;
 }
 
 /* Recipe Card End */
