@@ -54,7 +54,7 @@ Expansions in the future
 -   Data base creation for recipes
 -   component creation for several multi used pieces
 -   filter by ingredients
--   dinner builder from pantry
+-   dinner builder from pantry/leftvers
 -   user sign in
 -   ability to set favorites lists
 -   possibly create own page within the applicaiton and feature own recipes
@@ -62,3 +62,4 @@ Expansions in the future
 -   Guest chef for Videos
 -   Ability to gain admin status to post recipes to site
 -   measurement converter for recipe pages
+-   dinner builder filter
